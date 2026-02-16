@@ -1,0 +1,40 @@
+2026-02-16 16:53:12,241 - NoShowModel - INFO - Loading data from C:\Users\Lakshay\Downloads\ALL_PROJECT\Hospital no shows\output\processed_data.csv...
+2026-02-16 16:53:12,634 - NoShowModel - INFO - Training Logistic Regression model...
+2026-02-16 16:53:13,197 - NoShowModel - INFO - Model AUC: 0.6603
+2026-02-16 16:53:13,211 - NoShowModel - INFO - 
+              precision    recall  f1-score   support
+
+           0       0.86      0.68      0.76     17715
+           1       0.30      0.57      0.40      4391
+
+    accuracy                           0.65     22106
+   macro avg       0.58      0.62      0.58     22106
+weighted avg       0.75      0.65      0.69     22106
+
+2026-02-16 16:53:13,216 - NoShowModel - INFO - Model saved to C:\Users\Lakshay\Downloads\ALL_PROJECT\Hospital no shows\output\no_show_model.pkl
+2026-02-16 16:53:13,220 - NoShowModel - INFO - 
+--- Top Risk Factors (Odds Ratio > 1) ---
+2026-02-16 16:53:13,237 - NoShowModel - INFO -                        Feature  Coefficient  Odds_Ratio
+                     Wait_Days     0.465128    1.592218
+   Neighbourhood_SANTOS DUMONT     0.420244    1.522333
+           Neighbourhood_HORTO     0.379813    1.462012
+     Neighbourhood_SANTA CLARA     0.341258    1.406715
+Neighbourhood_ILHA DO PRÍNCIPE     0.324218    1.382949
+  Neighbourhood_PARQUE MOSCOSO     0.313739    1.368533
+  Neighbourhood_ENSEADA DO SUÁ     0.305525    1.357338
+      Neighbourhood_DO MOSCOSO     0.294988    1.343110
+  Neighbourhood_BENTO FERREIRA     0.281786    1.325495
+         Neighbourhood_ITARARÉ     0.277739    1.320142
+2026-02-16 16:53:13,237 - NoShowModel - INFO - 
+--- Top Protective Factors (Odds Ratio < 1) ---
+2026-02-16 16:53:13,240 - NoShowModel - INFO -                           Feature  Coefficient  Odds_Ratio
+       Neighbourhood_SOLON BORGES    -0.484472    0.616023
+         Neighbourhood_DE LOURDES    -0.418975    0.657721
+          Neighbourhood_DO CABRAL    -0.353101    0.702506
+       Neighbourhood_SANTA MARTHA    -0.318802    0.727020
+     Neighbourhood_JARDIM CAMBURI    -0.313468    0.730908
+         Neighbourhood_VILA RUBIM    -0.309254    0.733994
+             Neighbourhood_JABOUR    -0.305856    0.736493
+           Neighbourhood_NAZARETH    -0.304146    0.737753
+    Neighbourhood_ANTÔNIO HONÓRIO    -0.252443    0.776901
+Neighbourhood_ILHA DE SANTA MARIA    -0.250539    0.778381

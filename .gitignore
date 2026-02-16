@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Data (Keep raw data if small, otherwise ignore)
+# data/raw/
+data/processed/
+
+# Power BI
+*.pbix
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# VS Code
+.vscode/
