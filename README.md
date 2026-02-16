@@ -60,4 +60,4 @@ A Power BI dashboard (`powerbi/hospital_no_show_dashboard.pbix`) visualizes the 
 - **Recommendation:** Send SMS reminders for appointments scheduled >10 days in advance.
 
 ---
-*Created by Lakshay Rai - Data Analyst Portfolio*
+*Created by Lakshay Rai - Data Analyst*
